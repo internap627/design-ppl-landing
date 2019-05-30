@@ -1,0 +1,39 @@
+.projects {
+    width: 100vw;
+    min-height: 150vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 0 4rem;
+    box-sizing: border-box;
+}
+
+.projects h1 {
+    font-size: 2rem;
+    font-weight: 400;
+}
+
+.carousel-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.slide-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 75%;
+    height: 75%;
+}
+
+.logo {
+    width: 50%;
+    height: 50%;
+}
+
+.logo-img {
+    width: 50%;
+    height: 50%;
+}
