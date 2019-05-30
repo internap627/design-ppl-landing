@@ -1,16 +1,18 @@
 .projects {
     width: 100vw;
-    min-height: 150vh;
+    min-height: 125vh;
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
-    padding: 0 4rem;
+    justify-content: center;
+    padding: 20px 20px;
     box-sizing: border-box;
 }
 
 .projects h1 {
-    font-size: 2rem;
+    font-size: 1.3rem;
     font-weight: 400;
+    padding: 0 25px;
+    margin-bottom: 2rem;
 }
 
 .carousel-container {
@@ -24,8 +26,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 75%;
-    height: 75%;
+    width: 22rem;
+    height: 50%;
 }
 
 .logo {
@@ -37,3 +39,19 @@
     width: 50%;
     height: 50%;
 }
+
+@media (min-width: 491px) {
+    
+    .projects h1 {
+        font-size: 1.7rem;
+    }
+}
+
+@media (min-width: 768px) {
+    
+    .projects h1 {
+        font-size: 2rem;
+    }
+}
+
+

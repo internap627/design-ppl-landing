@@ -13,7 +13,7 @@ const hometreeLogo = require('./images/hometree-logo.png')
 const Projects = () => {
     return (
         <div className='projects'>
-            <h1>We've done digital projects for ...</h1>
+            <h1>We've done digital projects for...</h1>
             <div className='carousel-container'>
                 
                         <div className='slide-div'>
