@@ -1,0 +1,102 @@
+.steps {
+    width: 100vw;
+    min-height: 200vh;
+    background: #262626;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+    padding: 50px 0;
+}
+
+.steps p {
+    font-family: Raleway;
+    font-size: 0.7rem;
+    font-weight: 600;
+    letter-spacing: 2px;
+}
+.steps h1 {
+    font-size: 1.8rem;
+    font-weight: 400;
+    margin-bottom: 50px;
+}
+.steps span {
+    color: #909090;
+}
+.steps h2 {
+    width: 95%;
+    font-family: Exo, sans-serif;
+    font-size: 0.8rem;
+    font-weight: 50;
+    text-align: left;
+}
+
+.step {
+    width: 95%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    margin: 30px 0;
+}
+.step img {
+    width: 150px;
+    height: 150px;
+    margin: 10px 0;
+}
+.step-line {
+    width: 4px;
+    height: 150px;
+    background: #909090;
+    display: none;
+}
+.middle-step img{
+    order: 0;
+}
+.middle-step .step-line{
+    order: 0;
+}
+.middle-step h2{
+    order: 0;
+}
+
+@media (min-width:768px){
+    .step {
+        flex-direction: row;
+        align-items: flex-start;
+    }
+    .steps h2 {
+        width: 250px;
+    }
+    .step img {
+        width: 250px;
+        height: 250px;
+    }
+    .middle-step img{
+        order: 3;
+    }
+    .middle-step .step-line{
+        order: 2;
+    }
+    .middle-step h2{
+        order: 1;
+    }
+}
+
+@media (min-width:991px){
+    .step-line {
+        width: 4px;
+        height: 150px;
+        background: #909090;
+        display: block;
+    }
+    .step {
+        width: 60%;
+        
+    }
+    .step h2 {
+        width: 250px;
+    }
+
+}

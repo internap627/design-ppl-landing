@@ -32,7 +32,7 @@
 }
 
 .cards {
-    width: 80vw;
+    width: 100vw;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -41,7 +41,7 @@
 }
 
 .card{
-    width: 75%;
+    width: 100%;
     box-sizing: border-box;
     border: none;
     margin: 50px;
@@ -72,25 +72,15 @@
 }
 
 @media(min-width: 491px) {
-
-}
-
-@media(min-width: 768px){
-    .features {
-        
-    }
-    .card {
-        margin: 45px;
-    }
+        .cards {
+            width: 80vw;
+        }
 }
 
 @media(min-width: 991px) {
-    .features {
-        
-    }
     .card {
         width: 25%;
-        margin: 35px;
+        margin: 45px;
         border: 2px solid black;
     }
 }
