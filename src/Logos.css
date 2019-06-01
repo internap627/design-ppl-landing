@@ -1,0 +1,38 @@
+.logos {
+    width: 100vw;
+    min-height: 75vh;
+    display: flex;
+    justify-content: center;
+}
+
+.logo-block {
+    width: 75vw;
+    height: 75vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    margin: 2rem 0;
+}
+
+.logo-block img {
+    width: 50%;
+    height: 75px;
+    margin: 1.5rem 15px;
+}
+
+@media(min-width: 491px){
+    .logo-block img {
+        width: 30%;
+        margin: 0 15px;
+    }
+}
+
+@media(min-width: 768px) {
+    .logo-block img {
+        width: 18%
+    }
+    .logo-block {
+        margin: 0;
+    }
+}

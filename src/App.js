@@ -7,6 +7,7 @@ import Projects from './Projects';
 import Features from './Features';
 import Steps from './Steps';
 import Testimonials from './Testimonials';
+import Logos from './Logos';
 
 
 function App() {
@@ -19,6 +20,7 @@ function App() {
       <Features />
       <Steps />
       <Testimonials />
+      <Logos />
     </div>
   );
 }
