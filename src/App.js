@@ -8,6 +8,7 @@ import Features from './Features';
 import Steps from './Steps';
 import Testimonials from './Testimonials';
 import Logos from './Logos';
+import Footer from './Footer';
 
 
 function App() {
@@ -21,6 +22,7 @@ function App() {
       <Steps />
       <Testimonials />
       <Logos />
+      <Footer />
     </div>
   );
 }
