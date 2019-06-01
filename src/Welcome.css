@@ -25,11 +25,14 @@
 
 .welcome h2 {
     font-family: Exo, sans-serif;
-    font-size: 0.7rem;
+    font-size: 0.9rem;
     font-weight: 50;
 }
 
 @media(min-width: 491px) {
+    .welcome {
+        padding: 60px 15%;
+    }
     .welcome h1 {
         font-size: 1.8rem;
         font-weight: 400;
